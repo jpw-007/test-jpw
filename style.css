@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  margin: 20px 35px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  border: 2px solid saddlebrown;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container > div {
+  text-align: center;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.div1 {
+  background-color: darkgoldenrod;
+}
+
+.div2 {
+  background-color: bisque;
+}
+
+.div3 {
+  background-color: burlywood;
+}
